@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'AsyncApp'
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+repositories {
+    jcenter()
+}
